@@ -26,12 +26,12 @@ stages:
 - task: NodeTool@0
   inputs:
     versionSpec: '10.19.0'
-      displayName: 'install Node.js'
+  displayName: 'install Node.js'
 
 - script : | 
       npm install
       npm run build
-- displayName: 'npm install and build '
+  displayName: 'npm install and build '
 
 - task: ArchiveFiles@2
   inputs:
