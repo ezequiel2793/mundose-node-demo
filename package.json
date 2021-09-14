@@ -1,0 +1,11 @@
+{
+    "name": "practica-NodeJS"
+    "version": "1.0.0"
+    "description": "aplicacion de prueba"
+    "author": "ex_zequiel",
+    "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dependencies" :"express: "4.16.4"
+
+}
