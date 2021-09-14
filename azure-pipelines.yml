@@ -19,9 +19,8 @@ stages:
     displayName: 
     pool:
       vmImage: ubuntu-latest
-    steps:
-    
 
+    steps: 
 - task: NodeTool@0
   inputs:
     versionSpec: '10.19.0'
